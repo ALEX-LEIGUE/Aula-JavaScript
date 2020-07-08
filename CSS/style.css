@@ -1,0 +1,22 @@
+head{
+    h1{
+        font-family: Arial;
+        color: white;
+    }
+}
+
+body{
+    background: rgb(226, 185, 185);
+   
+}
+
+button{
+    button-align: center;
+    
+}
+
+h1{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
