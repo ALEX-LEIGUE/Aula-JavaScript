@@ -1,3 +1,5 @@
+/* TRABALHANDO COM FUNCÕES DE BOTÃO
+
 function clicouSim(){
     document.getElementById("entrar").innerHTML = "<b><p>OBRIGADO</p><p>SEJA BEM-VINDO(A)</b>";
     //alert("Obrigado! Você será redirecionado");
@@ -16,6 +18,31 @@ function clicouNao(){
 function redirecionar(){
     //window.open("https://www.google.com.br/"); // abre o site em outra janela
     window.location.href = "https://www.google.com.br/"; // abre o site na mesma janela
+}
+*/
+
+
+// TRABALHANDO COM FUNCÇÕES DO MOUSE
+function mudar(){
+    document.getElementById("mousemove").innerHTML= "Obrigado por passar o mouse";
+    
+}
+function voltar(){
+    document.getElementById("mousemove").innerHTML= "Passe o mouse aqui";
+    
+}
+
+function mudar2(Element){
+    Element.innerHTML= "Obrigado por passar o mouse";
+}
+function voltar2(Element){
+    Element.innerHTML= "Passe o mouse aqui";
+    
+}
+
+function alterar(Element){
+    console.log(Element.value);
+    
 }
 
 

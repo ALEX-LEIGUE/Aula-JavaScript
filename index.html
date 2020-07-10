@@ -13,15 +13,17 @@
     <button type="button" onclick="clicouSim()">Sim</button>
     <button type="button" onclick="clicouNao()">Não</button>
     <button type="button" onclick="redirecionar()">teste</button>
+
+    <p id="mousemove" onmouseover="mudar()" onmouseout="voltar()">Passe o mouse aqui</p>
+    <p onmouseover="mudar2(this)" onmouseout="voltar2(this)">Passe o mouse aqui</p>
     
-    
-<br>
-<br>
-<br>
-<br>
-    <h1 id="entrar"></h1>
-    <h1 id="sair"></h1>
-    
+     <h1 id="entrar"></h1>
+     <h1 id="sair"></h1>
+    <select id = "selecao" onchange="alterar(this)">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
 
     </body>
     
